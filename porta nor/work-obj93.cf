@@ -1,0 +1,7 @@
+v 4
+file . "porta_nor.vhdl" "95d9426e13d9c87a57a24737aba19650fdcd0aa0" "20240814185148.533":
+  entity porta_nor at 1( 0) + 0 on 13;
+  architecture comportamento of porta_nor at 9( 91) + 0 on 14;
+file . "porta_nor_tb.vhdl" "8286a96778c7c49573df2b8f273d0878d5999f8d" "20240814185148.533":
+  entity porta_nor_tb at 1( 0) + 0 on 11;
+  architecture tb of porta_nor_tb at 5( 44) + 0 on 12;

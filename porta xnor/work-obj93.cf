@@ -1,0 +1,7 @@
+v 4
+file . "porta_xnor.vhdl" "6503ac45b4cb71f712be9ce84304c652b4d4ed5b" "20240814190002.761":
+  entity porta_xnor at 1( 0) + 0 on 13;
+  architecture comportamento of porta_xnor at 9( 93) + 0 on 14;
+file . "porta_xnor_tb.vhdl" "c889f1d661c09b41c17934beb84e5a9f3991ee61" "20240814190002.760":
+  entity porta_xnor_tb at 1( 0) + 0 on 11;
+  architecture tb of porta_xnor_tb at 5( 46) + 0 on 12;

@@ -1,0 +1,7 @@
+v 4
+file . "porta_xor.vhdl" "e921a758b4bc7f0cb4b6af9ff5d996cfdfa50129" "20240814185616.044":
+  entity porta_xor at 1( 0) + 0 on 13;
+  architecture comportamento of porta_xor at 9( 91) + 0 on 14;
+file . "porta_xor_tb.vhdl" "6d2bcf4c5451f9ee94695328cd6ae1cce5ac5bb7" "20240814185616.042":
+  entity porta_xor_tb at 1( 0) + 0 on 11;
+  architecture tb of porta_xor_tb at 5( 44) + 0 on 12;

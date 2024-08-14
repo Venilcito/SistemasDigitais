@@ -1,0 +1,7 @@
+v 4
+file . "porta_nand.vhdl" "d993fb3a5fc9ba9d18bf19711e467b857460066e" "20240814184815.815":
+  entity porta_nand at 1( 0) + 0 on 13;
+  architecture comportamento of porta_nand at 9( 93) + 0 on 14;
+file . "porta_nand_tb.vhdl" "8dd13e71cee1d6f4395c89af7ed6261ce0e39751" "20240814184815.814":
+  entity porta_nand_tb at 1( 0) + 0 on 11;
+  architecture tb of porta_nand_tb at 5( 46) + 0 on 12;

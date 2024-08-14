@@ -1,0 +1,7 @@
+v 4
+file . "porta_and4.vhdl" "fed850cae970ab3bd9681665fa0d48a7059dcdbd" "20240814191948.108":
+  entity porta_and4 at 1( 0) + 0 on 13;
+  architecture comportamento of porta_and4 at 11( 123) + 0 on 14;
+file . "porta_and4_tb.vhdl" "8acd19e16f471e526e8169fd284e0f42b3a5ad10" "20240814191948.108":
+  entity porta_and4_tb at 1( 0) + 0 on 11;
+  architecture tb of porta_and4_tb at 5( 46) + 0 on 12;
