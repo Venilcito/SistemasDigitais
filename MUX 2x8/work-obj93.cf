@@ -1,0 +1,7 @@
+v 4
+file . "mux2x8.vhdl" "a98a2a976fe009f79a7e26446de6f1c8a53a208d" "20240911191433.112":
+  entity mux2x8 at 1( 0) + 0 on 13;
+  architecture escolha of mux2x8 at 10( 195) + 0 on 14;
+file . "mux2x8_tb.vhdl" "838e470310bc9aa2c17feff9ff15e8c31e5718a5" "20240911191433.112":
+  entity mux2x8_tb at 1( 0) + 0 on 11;
+  architecture escolha of mux2x8_tb at 5( 34) + 0 on 12;
