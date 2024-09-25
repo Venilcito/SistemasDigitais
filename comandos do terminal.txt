@@ -1,0 +1,5 @@
+Analisar arquivos:
+ghdl -a *.vhdl
+
+Criar arquivo ghw:
+ghdl -r [entidade tb] --stop-time[tempo] --wave=[nome do arquivo].ghw
