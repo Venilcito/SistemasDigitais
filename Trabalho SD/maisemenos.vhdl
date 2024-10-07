@@ -5,7 +5,6 @@ entity maismenos is
     port(
         a    : in std_logic_vector(7 downto 0);
         b    : in std_logic_vector(7 downto 0);
-        cin  : in std_logic;
         op   : in std_logic;
         s    : out std_logic_vector(7 downto 0);
         cout : out std_logic
@@ -14,10 +13,10 @@ end entity;
 
 architecture comportamento of maismenos is
 
-    signal Z : std_logic_vector(7 downto 0);
+    signal Zb : std_logic_vector(7 downto 0);
 
     component mux2x8b is
-        Port(
+        port(
             b  : in std_logic_vector(7 downto 0);
             op : in std_logic;
             Z  : out std_logic_vector(7 downto 0)
@@ -25,7 +24,7 @@ architecture comportamento of maismenos is
     end component;
 
     component somador8bits is
-        Port (
+        port(
             a    : in std_logic_vector(7 downto 0);
             Z    : in std_logic_vector(7 downto 0);
             cin  : in std_logic;
@@ -35,6 +34,6 @@ architecture comportamento of maismenos is
     end component;
     
 begin
-        u_mux2x8b: mux2x8b port map(b, op, Z);
-        u_somador8bits: somador8bits port map (a, Z, cin, cout, s);
+        u_mux2x8b: mux2x8b port map(b, op, Z => Zb);
+        u_somador8bits: somador8bits port map (a, Z => Zb, cin => op, cout, s);
 end architecture;
