@@ -8,7 +8,7 @@ architecture test of tb_4bits is
 
 component somador4bits is
 	port(
-			a    : in std_logic_vector(3 downto 0);
+	    a    : in std_logic_vector(3 downto 0);
             b    : in std_logic_vector(3 downto 0);
             cin  : in std_logic;
             cout : out std_logic;
