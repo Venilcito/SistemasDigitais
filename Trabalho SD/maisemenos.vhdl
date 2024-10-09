@@ -35,5 +35,5 @@ architecture comportamento of maismenos is
     
 begin
         u_mux2x8b: mux2x8b port map(b, op, Z => Zb);
-        u_somador8bits: somador8bits port map (a, Z => Zb, cin => op, cout, s);
+        u_somador8bits: somador8bits port map (a => a, Z => Zb, cin => op, cout => cout, s => s);
 end architecture;
