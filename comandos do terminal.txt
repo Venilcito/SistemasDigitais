@@ -2,7 +2,7 @@ Analisar arquivos:
 ghdl -a *.vhdl
 
 Criar arquivo ghw:
-ghdl -r [entidade tb] --stop-time[tempo] --wave=[nome do arquivo].ghw
+ghdl -r [entidade tb] --stop-time=[tempo] --wave=[nome do arquivo].ghw
 
 
 (abrir o terminal dentro da pasta com os arquivos pra funcionar direito)
