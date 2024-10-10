@@ -1,0 +1,29 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Thu Oct 10 19:50:09 2024
+[*]
+[dumpfile] "/home/perfil/Documentos/venicioSD/somador e subtrator/Simulação 2/maisemenos.ghw"
+[dumpfile_mtime] "Thu Oct 10 19:44:57 2024"
+[dumpfile_size] 1510
+[savefile] "/home/perfil/Documentos/venicioSD/somador e subtrator/Simulação 2/Simulação 2.gtkw"
+[timestart] 0
+[size] 1600 828
+[pos] -33 -33
+*-25.491604 4900000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.maismenos_tb.
+[treeopen] top.maismenos_tb.u_maismenos.
+[sst_width] 212
+[signals_width] 154
+[sst_expanded] 1
+[sst_vpaned_height] 228
+@28
+top.maismenos_tb.op
+top.maismenos_tb.u_maismenos.u_somador8bits.cin
+#{top.maismenos_tb.a[7:0]} top.maismenos_tb.a[7] top.maismenos_tb.a[6] top.maismenos_tb.a[5] top.maismenos_tb.a[4] top.maismenos_tb.a[3] top.maismenos_tb.a[2] top.maismenos_tb.a[1] top.maismenos_tb.a[0]
+#{top.maismenos_tb.b[7:0]} top.maismenos_tb.b[7] top.maismenos_tb.b[6] top.maismenos_tb.b[5] top.maismenos_tb.b[4] top.maismenos_tb.b[3] top.maismenos_tb.b[2] top.maismenos_tb.b[1] top.maismenos_tb.b[0]
+#{top.maismenos_tb.s[7:0]} top.maismenos_tb.s[7] top.maismenos_tb.s[6] top.maismenos_tb.s[5] top.maismenos_tb.s[4] top.maismenos_tb.s[3] top.maismenos_tb.s[2] top.maismenos_tb.s[1] top.maismenos_tb.s[0]
+top.maismenos_tb.cout
+top.maismenos_tb.over
+[pattern_trace] 1
+[pattern_trace] 0

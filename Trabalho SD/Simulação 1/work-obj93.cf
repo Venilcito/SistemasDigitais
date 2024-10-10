@@ -1,0 +1,16 @@
+v 4
+file . "somador8bits.vhdl" "6a74a14856f47b7ce732a23b20575541b7912b33" "20241010191459.439":
+  entity somador8bits at 1( 0) + 0 on 19;
+  architecture comportamento of somador8bits at 14( 300) + 0 on 20;
+file . "somador1bit.vhdl" "56ae07f07dfd6617dd82790f897eda2fd142096e" "20241010191459.439":
+  entity somador1bit at 1( 0) + 0 on 17;
+  architecture comportamento of somador1bit at 14( 249) + 0 on 18;
+file . "mux2x8b.vhdl" "cbb11886312cca298c7ae0fc1afcea625eb7119e" "20241010191459.438":
+  entity mux2x8b at 1( 0) + 0 on 15;
+  architecture escolha of mux2x8b at 12( 213) + 0 on 16;
+file . "maisemenos.vhdl" "4a49492c08e60469a1f423b66eac9bdccbeda20f" "20241010191459.438":
+  entity maismenos at 1( 0) + 0 on 13;
+  architecture comportamento of maismenos at 15( 341) + 0 on 14;
+file . "maisemenos_tb.vhdl" "8f1f1bff24da574372d057a6aab030d2cdc9c0da" "20241010191459.438":
+  entity maismenos_tb at 1( 0) + 0 on 11;
+  architecture test of maismenos_tb at 7( 99) + 0 on 12;
