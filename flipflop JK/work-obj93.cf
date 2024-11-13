@@ -1,0 +1,7 @@
+v 4
+file . "tb_ffjkc.vhdl" "5ed2dfe8dda3100bbfd6351ecd549eb333fb12cc" "20241113192127.047":
+  entity tb_ffjk at 1( 0) + 0 on 13;
+  architecture tb_ff of tb_ffjk at 8( 77) + 0 on 14;
+file . "flipflop.vhdl" "cef0bc38da8bd6e4d9b958da0de3b30de04925ca" "20241113192127.046":
+  entity ffjk at 1( 0) + 0 on 11;
+  architecture ff of ffjk at 13( 211) + 0 on 12;
