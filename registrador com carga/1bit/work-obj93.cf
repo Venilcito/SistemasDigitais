@@ -1,0 +1,10 @@
+v 4
+file . "reg1bit.vhdl" "c406aa26131e8f2ecd6fab4f640390211c3b9992" "20241127191744.982":
+  entity regcarga1bit at 1( 0) + 0 on 39;
+  architecture reg1bit of regcarga1bit at 16( 231) + 0 on 40;
+file . "reg1bit_tb.vhdl" "171e4e04925b8ad6304a5aea349ff346e20664da" "20241127191744.980":
+  entity tb_reg at 1( 0) + 0 on 37;
+  architecture tb of tb_reg at 8( 75) + 0 on 38;
+file . "flipflopD.vhdl" "c2f7888a84965724c67ae41bfedbac29a15ea072" "20241127191744.979":
+  entity ffjk at 1( 0) + 0 on 35;
+  architecture ff of ffjk at 13( 211) + 0 on 36;
